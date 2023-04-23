@@ -32,7 +32,7 @@ local colorscheme = astronvim.default_colorscheme and { astronvim.default_colors
 
 require("lazy").setup(astronvim.user_opts("lazy", {
   spec = spec,
-  defaults = { lazy = true },
+  defaults = { lazy = false },
   install = { colorscheme = colorscheme },
   performance = {
     rtp = {
